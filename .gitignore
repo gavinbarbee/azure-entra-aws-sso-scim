@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+terraform.tfvars
+crash.log
+
+# Never commit SAML metadata downloads
+*.xml
+
+# Claude Code
+CLAUDE.md
+.claude/
